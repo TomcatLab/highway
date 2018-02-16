@@ -1,0 +1,24 @@
+{
+  "name": "highway",
+  "version": "1.0.0",
+  "description": "Meterials",
+  "main": "index.js",
+  "scripts": {
+    "test": "highway"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomcatLab/highway.git"
+  },
+  "keywords": [
+    "highway",
+    "highway",
+    "framework"
+  ],
+  "author": "Biju Baby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomcatLab/highway/issues"
+  },
+  "homepage": "https://github.com/TomcatLab/highway#readme"
+}
