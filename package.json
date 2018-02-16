@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/TomcatLab/highway/issues"
   },
-  "homepage": "https://github.com/TomcatLab/highway#readme"
+  "homepage": "https://github.com/TomcatLab/highway#readme",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  }
 }
