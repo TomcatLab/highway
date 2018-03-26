@@ -1,0 +1,27 @@
+[class^="icon-status-"], [class*=" icon-status-"] {
+  &:after{
+    content: '';
+    border-radius: $border-radius;
+    border: $border-width * 6 solid $gray-300;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    margin-bottom: -0.1rem;
+  }
+}
+
+.icon-status-closed:after{
+  border-color: $green;
+}
+
+.icon-status-open:after{
+  border-color: $secondary;
+}
+
+.icon-status-submited:after{
+  border-color: $primary;
+}
+
+.icon-status-draft:after{
+  border-color: $yellow;
+}

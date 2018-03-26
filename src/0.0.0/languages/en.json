@@ -1,0 +1,10 @@
+{
+    "Title": "Translation example",
+    "Intro": "Hello I am Vijay.",
+    "landingPage": {
+        "title": "Hello World"
+    },
+     "Aboutpage": {
+        "TranslationSections": "We are letsboot"
+    }
+}

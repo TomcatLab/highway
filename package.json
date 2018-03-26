@@ -1,27 +1,19 @@
 {
-  "name": "highway",
+  "name": "highway-blue",
   "version": "1.0.0",
-  "description": "Meterials",
-  "main": "index.js",
+  "description": "",
+  "main": "src/1.0.0/sass/styles.scss",
   "scripts": {
-    "test": "highway"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TomcatLab/highway.git"
   },
-  "keywords": [
-    "highway",
-    "highway",
-    "framework"
-  ],
-  "author": "Biju Baby",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TomcatLab/highway/issues"
   },
-  "homepage": "https://github.com/TomcatLab/highway#readme",
-  "scripts": {
-    "test": "mocha --reporter spec"
-  }
+  "homepage": "https://github.com/TomcatLab/highway#readme"
 }

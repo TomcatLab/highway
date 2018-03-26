@@ -1,0 +1,87 @@
+.close {
+    position: absolute;
+    display: block;
+    right: rem(10);
+    top: rem(10);
+    padding: rem(10);
+    font-size: rem(30);
+    font-weight: bold;
+    cursor: pointer;
+    color: $dark-blue;
+    &:hover {
+        color: $blue;
+    }
+}
+
+.popup-container.print-popup {
+    padding: rem(20) 0 0 0;
+    height: 550px;
+    width: 880px;
+}
+
+.print-claim {
+    width: 100%;
+    background: $white;
+    border-bottom-left-radius: rem(10);
+    border-bottom-right-radius: rem(10);
+    overflow: hidden;
+}
+
+.print-claim-header {
+    width: 100%;
+    text-align: center;
+    img {
+        max-width: rem(60);
+    }
+    h1 {
+        color: $dark-blue;
+        margin: rem(10) 0;
+        font-size: rem(20);
+    }
+}
+
+.print-claim-inner {
+    width: 100%;
+    background: #fcffb2;
+    padding: rem(20) rem(70);
+}
+
+.print-claim-container {
+    /*min-width: rem(900);*/
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: rem(10);
+    border: 1px solid $border-color;
+    padding: rem(10);
+    background: #feffdc;
+    table {
+        width: 100%;
+        border: 1px solid $border-color;
+        border-radius: rem(10);
+        tr {
+            td {
+                padding: rem(10);
+                font-size: rem(15);
+                font-family: $font-regular;
+                span{
+                    font-weight: 600;  
+                }
+            }
+        }
+    }
+    .footer-table {
+        border: 0;
+        td {
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    textarea {
+        resize: none;
+    }
+}
+
+.print-btn {
+    width: auto !important;
+    margin-bottom: rem(20);
+}
